@@ -47,3 +47,16 @@ Beim erstellen eines div Elements kann man "TAB" drücken und die tags werden au
 schreibt man div.klassenname und drückt dann "TAB" hat man sogar eine Klasse dabei.
 
 "STRG" + "J" öffnen der command zeile
+"git init" erstellt unsichtbaren .git ordner um den zielordner zu definieren
+
+git config --global user.name "Jannik"
+git config --global user.email "jannik.regenberg@gmail.com" <- Benutzer definieren
+
+"git add -A" wählt alles aus 
+"git commit -m "Our first commit"" loggin in files/speichern. 
+
+Für erneutes speichern sollte man beide Schritte nochmal durchführen
+
+git checkout -- .  <-- Macht Änderungen rückgängig. Greift auf den letzten Speicherzustand zurück.
+
+ssh-keygen -t ed25519 -C "jannik.regenberg@gmail.com" <-- SSh Key für github generieren
